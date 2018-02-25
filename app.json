@@ -1,0 +1,29 @@
+{
+  "name": "api",
+  "scripts": {
+  },
+  "env": {
+    "APP_DEBUG": {
+      "required": true
+    },
+    "APP_KEY": {
+      "required": true
+    },
+    "CLEARDB_DATABASE_URL": {
+      "required": true
+    }
+  },
+  "formation": {
+    "web": {
+      "quantity": 1
+    }
+  },
+  "addons": [
+    "cleardb"
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/php"
+    }
+  ]
+}
