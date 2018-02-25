@@ -23,6 +23,12 @@ Route::middleware('cors')->prefix('v1')->group(function(){
     Route::get('indicacao/corretora/{id}','IndicacaoController@porCorretora_index');
     Route::get('indicacao/clienteagente/{id}','IndicacaoController@porClienteAgente_index');
 
+
+
+
+
+
+
     Route::resource('clientesagentes','ClienteAgenteController');
 
     Route::resource('tiposseguros','TipoSeguroController');
