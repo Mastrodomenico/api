@@ -1,6 +1,7 @@
 <?php
 
 $dataBaseUrl = parse_url(env("CLEARDB_DATABASE_URL"));
+echo 'bla';
 
 return [
 
