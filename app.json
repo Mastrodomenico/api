@@ -1,6 +1,7 @@
 {
   "name": "api",
   "scripts": {
+    "postdeploy": "php artisan migrate --seed"
   },
   "env": {
     "APP_DEBUG": {
