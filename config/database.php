@@ -2,6 +2,12 @@
 
 $dataBaseUrl = parse_url(env("CLEARDB_DATABASE_URL"));
 
+$dataBaseUrl['host'] = '';
+$dataBaseUrl['port'] = '';
+$dataBaseUrl['path'] = '';
+$dataBaseUrl['user'] = '';
+$dataBaseUrl['pass'] = '';
+
 return [
 
     /*
